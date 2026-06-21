@@ -14,8 +14,34 @@ body {
   height: 100%;
 }
 
+nav, footer {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+button:hover, a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+  transition: all 0.2s ease-in-out;
+}
+
+:root {
+  --white-color: #ffffff;
+  --blue-color: #0076CE;
+  --grey-color: #1A202C;
+  --light-grey-color: #E2E8F0;
+
+  --headline: "Archivo", sans-serif;
+  --body: "Inter", sans-serif;
+  --label: "Inter", sans-serif;
 }
