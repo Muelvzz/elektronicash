@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
 *,
@@ -14,7 +15,9 @@ body {
   height: 100%;
 }
 
-nav, footer {
+nav,
+footer,
+main {
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -25,23 +28,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
-button:hover, a:hover {
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6818em;
+}
+
+h3 {
+  font-size: 1.4142em;
+}
+
+h4 {
+  font-size: 1.1892em;
+}
+
+p {
+  font-size: 1em;
+}
+
+small {
+  font-size: .8409em;
+}
+
+button:hover,
+a:hover {
   opacity: 0.8;
   text-decoration: underline;
   transition: all 0.2s ease-in-out;
 }
 
 :root {
-  --white-color: #ffffff;
-  --blue-color: #0076CE;
-  --grey-color: #1A202C;
-  --light-grey-color: #E2E8F0;
+  --primary-color: #1E40AF;
+  --secondary-color: #10B981;
+  --tertiary-color: #F0F9FF;
+  --neutral-color: #64748B;
 
-  --headline: "Archivo", sans-serif;
-  --body: "Inter", sans-serif;
-  --label: "Inter", sans-serif;
+  --font-headline: "Archivo Narrow", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
 }
