@@ -2,5 +2,28 @@
   "hero": {
     "title": "Welcome to ELEKTRONICASH GADGET’S PHONESHOP INC.",
     "subtitle": "We are dedicated of giving life through responsible trading"
+  },
+  "aboutUs": {
+    "whyChooseUs": [
+      {
+        "title": "Certified Quality and Reliability",
+        "content": "We are committed to providing high-quality electronic products and exceptional customer service. Our     team of experts ensures that every product meets our strict standards for performance and reliability.",
+        "image": "/star.png"
+      },
+      {
+        "title": "Wide Range of Products",
+        "content": "We offer a diverse selection of electronic gadgets, including smartphones, tablets, laptops, and accessories. Our extensive inventory ensures that you can find the perfect device to suit your needs.",
+        "image": "/leaf.png"
+      },
+      {
+        "title": "Competitive Pricing",
+        "content": "We strive to offer competitive prices on all our products. Our goal is to provide value for money while maintaining the highest quality standards.",
+        "image": "/money.png"
+      }
+    ],
+    "learnMore": {
+      "title": "Learn More About Us",
+      "content": "At ELEKTRONICASH GADGET’S PHONESHOP INC., we are passionate about technology and committed to helping our customers find the best electronic devices. Our knowledgeable staff is always ready to assist you with any questions or concerns you may have."
+    }
   }
 }

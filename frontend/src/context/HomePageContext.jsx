@@ -1,23 +1,23 @@
 import React, { createContext, useContext, useMemo } from "react";
 import homepageData from "../info/homepage.json";
 
-export const HomePageContext = createContext(homepageData);
+export const HomeContext = createContext(homepageData);
 
 export const HomePageProvider = ({ children }) => {
   const value = useMemo(() => ({ homepage: homepageData }), []);
 
   return (
-    <HomePageContext.Provider value={value}>
+    <HomeContext.Provider value={value}>
       {children}
-    </HomePageContext.Provider>
+    </HomeContext.Provider>
   );
 };
 
-export const useHomePage = () => {
-  const context = useContext(HomePageContext);
+export const HomePageContext = () => {
+  const context = useContext(HomeContext);
   
   if (context === undefined) {
-    throw new Error("useHomePage must be used within a HomePageProvider");
+    throw new Error("homePageContext must be used within a HomePageProvider");
   }
   
   return context;

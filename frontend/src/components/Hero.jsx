@@ -1,7 +1,7 @@
-import { useHomePage } from "../context/heroContext"
+import { HomePageContext } from "../context/HomePageContext"
 
 export default function Hero() {
-  const { homepage: { hero } } = useHomePage()
+  const { homepage: { hero } } = HomePageContext()
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center gap-8 text-center">

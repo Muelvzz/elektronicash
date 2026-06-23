@@ -1,7 +1,8 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import AboutUs from "./components/AboutUs";
 
-import { HomePageProvider } from "./context/heroContext";
+import { HomePageProvider } from "./context/HomePageContext";
 
 export default function App() {
 
@@ -11,6 +12,7 @@ export default function App() {
         <Nav />
         <main>
           <Hero />
+          <AboutUs />
         </main>
       </HomePageProvider>
     </>
