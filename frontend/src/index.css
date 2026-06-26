@@ -74,3 +74,20 @@ a:hover {
   --font-body: "Inter", sans-serif;
   --font-label: "Inter", sans-serif;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 20px));
+  }
+}
+
+.carousel-track {
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-track:hover {
+  animation-play-state: paused;
+}

@@ -111,5 +111,35 @@
         "maplink": "https://www.google.com/maps/place/789+Uptown+Road,+Cityville"
       }
     ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "content": "Read what our satisfied customers have to say about their experience with us.",
+    "testimonialList": [
+      {
+        "name": "John Doe",
+        "feedback": "Great service and high-quality products! I highly recommend this shop."
+      },
+      {
+        "name": "Jane Smith",
+        "feedback": "The staff was very helpful and knowledgeable. I found exactly what I needed."
+      },
+      {
+        "name": "Mike Johnson",
+        "feedback": "Fast shipping and excellent customer support. I will definitely shop here again."
+      },
+      {
+        "name": "Emily Davis",
+        "feedback": "I love the variety of products available. The quality is top-notch!"
+      },
+      {
+        "name": "David Wilson",
+        "feedback": "The best electronics store I've ever visited. Highly recommended!"
+      },
+      {
+        "name": "Sarah Brown",
+        "feedback": "I had a great experience shopping here. The staff was friendly and helpful."
+      }
+    ]
   }
 }

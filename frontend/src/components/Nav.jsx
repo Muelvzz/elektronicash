@@ -6,7 +6,7 @@ export default function Nav() {
     const hoverVariable = "hover:bg-(--primary-color) duration-300 ease-in-out hover:opacity-90 rounded-md py-2";
 
     return (
-        <nav className="bg-white text-(--white-color) py-4 px-6 md:px-12 flex justify-between md:grid md:grid-cols-3 sticky top-0 shadow-[0_1px_10px_2px_rgba(0,0,0,0.35)] ">
+        <nav className="bg-white text-(--white-color) py-4 px-6 md:px-12 flex justify-between md:grid md:grid-cols-3 sticky top-0 shadow-[0_1px_10px_2px_rgba(0,0,0,0.35)] z-100">
             <img src="logo.png" alt="Logo" className="h-8" />
 
             <ul className="hidden md:flex gap-4 items-center md:justify-center">
