@@ -25,5 +25,61 @@
       "title": "Learn More About Us",
       "content": "At ELEKTRONICASH GADGET’S PHONESHOP INC., we are passionate about technology and committed to helping our customers find the best electronic devices. Our knowledgeable staff is always ready to assist you with any questions or concerns you may have."
     }
+  },
+  "productCategory": {
+    "title": "Explore Our Product Category",
+    "content": "Discover our wide range of electronic gadgets and accessories. From the latest smartphones to essential accessories.",
+    "productList": [
+      {
+        "name": "Android Phone",
+        "image": "/android.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Iphone",
+        "image": "/iphone.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Tablet",
+        "image": "/tablet.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Ipad",
+        "image": "/ipad.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Laptop",
+        "image": "/laptop.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Smartwatch",
+        "image": "/smartwatch.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Headphone",
+        "image": "/headphone.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Camera",
+        "image": "/camera.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Gaming Console",
+        "image": "/console.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Accessory",
+        "image": "/accessory.png",
+        "color": "--primary-color"
+      }
+    ]
   }
 }
