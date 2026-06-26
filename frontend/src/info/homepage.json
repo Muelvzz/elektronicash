@@ -81,5 +81,35 @@
         "color": "--primary-color"
       }
     ]
+  },
+  "branches": {
+    "title": "Our Branches",
+    "content": "We have multiple branches across the country to serve you better.",
+    "branchList": [
+      {
+        "name": "Main Branch",
+        "address": "123 Main Street, Cityville",
+        "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed",
+        "image": "/location-dummy.png",
+        "number": "+1 (555) 123-4567",
+        "maplink": "https://www.google.com/maps/place/123+Main+Street,+Cityville"
+      },
+      {
+        "name": "Downtown Branch",
+        "address": "456 Downtown Avenue, Cityville",
+        "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed",
+        "image": "/location-dummy.png",
+        "number": "+1 (555) 987-6543",
+        "maplink": "https://www.google.com/maps/place/456+Downtown+Avenue,+Cityville"
+      },
+      {
+        "name": "Uptown Branch",
+        "address": "789 Uptown Road, Cityville",
+        "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed",
+        "image": "/location-dummy.png",
+        "number": "+1 (555) 246-8101",
+        "maplink": "https://www.google.com/maps/place/789+Uptown+Road,+Cityville"
+      }
+    ]
   }
 }
