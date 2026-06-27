@@ -5,9 +5,11 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center gap-8 text-center">
-      <div className="w-full md:w-2/3 lg:w-2/5">
+      <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center bg-no-repeat h-screen w-full opacity-90"></div>
+
+      <div className="w-full md:w-2/3 lg:w-2/5 z-98">
         <div>
-          <h1 className="font-(--font-headline)">{ hero.title }</h1>
+          <h1 className="font-(--font-headline) font-semibold text-(--tertiary-color)">{ hero.title }</h1>
           <h4 className="text-(--neutral-color)">{ hero.subtitle }</h4>
         </div>
         <div className="flex gap-4 justify-center mt-6">

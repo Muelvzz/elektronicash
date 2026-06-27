@@ -24,7 +24,7 @@ export default function Branches() {
   const activeBranch = branchList[activeIndex];
 
   return (
-    <section className="flex flex-col items-center text-center px-4 py-12">
+    <section className="flex flex-col items-center text-center px-4 py-12 my-20">
       <div className="w-full md:w-2/3 lg:w-3/5 mb-10">
         <h1 className="text-3xl font-semibold mb-3">{branches.title}</h1>
         <p className="text-(--neutral-color)">{branches.content}</p>

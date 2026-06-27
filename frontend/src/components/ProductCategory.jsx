@@ -4,7 +4,7 @@ export default function ProductCategory() {
   const productCategory = HomePageContext().productCategory;
 
   return (
-    <section className="flex flex-col justify-center items-center text-center">
+    <section className="flex flex-col justify-center items-center text-center my-20">
       <div className="w-full md:w-2/3 lg:w-3/5 mb-10">
         <h1 className="font-(--font-headline)">{ productCategory.title }</h1>
         <p className="text-(--neutral-color) text-center">{ productCategory.content }</p>
