@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import { HomePageContext } from "../context/HomePageContext";
 
 export default function Branches() {
-  const {
-    homepage: { branches },
-  } = HomePageContext();
-
+  const branches = HomePageContext().branches;
+  
   const branchList = branches?.branchList || [];
   const [activeIndex, setActiveIndex] = useState(0);
 

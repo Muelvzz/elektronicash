@@ -1,7 +1,7 @@
 import { HomePageContext } from "../context/HomePageContext"
 
 export default function Hero() {
-  const { homepage: { hero } } = HomePageContext()
+  const hero = HomePageContext().hero;
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center gap-8 text-center">

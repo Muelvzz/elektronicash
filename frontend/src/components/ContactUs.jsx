@@ -1,7 +1,7 @@
 import { HomePageContext } from "../context/HomePageContext";
 
 export default function ContactUs() {
-  const { homepage: { contactUs } } = HomePageContext();
+  const contactUs = HomePageContext().contactUs;
 
   return (
     <section className="flex flex-col justify-center items-center text-center px-4 py-12">

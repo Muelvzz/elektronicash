@@ -1,7 +1,7 @@
 import { HomePageContext } from "../context/HomePageContext";
 
 export default function Testimonials() {
-  const { homepage: { testimonials } } = HomePageContext();
+  const testimonials = HomePageContext().testimonials;
   const testimonialList = testimonials?.testimonialList || [];
 
   if (!testimonialList.length) {

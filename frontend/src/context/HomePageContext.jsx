@@ -1,10 +1,10 @@
-import React, { createContext, useContext, useMemo } from "react";
+import React, { createContext, useContext, useRef } from "react";
 import homepageData from "../info/homepage.json";
 
-export const HomeContext = createContext(homepageData);
+export const HomeContext = createContext(null);
 
 export const HomePageProvider = ({ children }) => {
-  const value = useMemo(() => ({ homepage: homepageData }), []);
+  const value = useRef(homepageData);
 
   return (
     <HomeContext.Provider value={value}>
@@ -20,5 +20,5 @@ export const HomePageContext = () => {
     throw new Error("homePageContext must be used within a HomePageProvider");
   }
   
-  return context;
+  return context.current;
 };

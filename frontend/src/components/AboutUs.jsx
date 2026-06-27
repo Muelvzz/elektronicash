@@ -1,7 +1,7 @@
 import { HomePageContext } from "../context/HomePageContext";
 
 export default function AboutUs() {
-  const { homepage: { aboutUs } } = HomePageContext();
+  const aboutUs = HomePageContext().aboutUs;
 
   return (
     <section className="flex flex-col justify-center items-center text-center">

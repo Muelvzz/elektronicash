@@ -1,7 +1,7 @@
 import { HomePageContext } from "../context/HomePageContext";
 
 export default function ProductCategory() {
-  const { homepage: { productCategory } } = HomePageContext();
+  const productCategory = HomePageContext().productCategory;
 
   return (
     <section className="flex flex-col justify-center items-center text-center">
