@@ -1,0 +1,170 @@
+{
+  "hero": {
+    "title": "Welcome to ELEKTRONICASH GADGET’S PHONESHOP INC.",
+    "subtitle": "We are dedicated of giving life through responsible trading"
+  },
+  "aboutUs": {
+    "whyChooseUs": [
+      {
+        "title": "Certified Quality and Reliability",
+        "content": "We are committed to providing high-quality electronic products and exceptional customer service. Our     team of experts ensures that every product meets our strict standards for performance and reliability.",
+        "image": "/star.png"
+      },
+      {
+        "title": "Wide Range of Products",
+        "content": "We offer a diverse selection of electronic gadgets, including smartphones, tablets, laptops, and accessories. Our extensive inventory ensures that you can find the perfect device to suit your needs.",
+        "image": "/leaf.png"
+      },
+      {
+        "title": "Competitive Pricing",
+        "content": "We strive to offer competitive prices on all our products. Our goal is to provide value for money while maintaining the highest quality standards.",
+        "image": "/money.png"
+      }
+    ],
+    "learnMore": {
+      "title": "Learn More About Us",
+      "content": "At ELEKTRONICASH GADGET’S PHONESHOP INC., we are passionate about technology and committed to helping our customers find the best electronic devices. Our knowledgeable staff is always ready to assist you with any questions or concerns you may have."
+    }
+  },
+  "productCategory": {
+    "title": "Explore Our Product Category",
+    "content": "Discover our wide range of electronic gadgets and accessories. From the latest smartphones to essential accessories.",
+    "productList": [
+      {
+        "name": "Android Phone",
+        "image": "/android.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Iphone",
+        "image": "/iphone.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Tablet",
+        "image": "/tablet.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Ipad",
+        "image": "/ipad.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Laptop",
+        "image": "/laptop.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Smartwatch",
+        "image": "/smartwatch.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Headphone",
+        "image": "/headphone.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Camera",
+        "image": "/camera.png",
+        "color": "--primary-color"
+      },
+      {
+        "name": "Gaming Console",
+        "image": "/console.png",
+        "color": "--secondary-color"
+      },
+      {
+        "name": "Accessory",
+        "image": "/accessory.png",
+        "color": "--primary-color"
+      }
+    ]
+  },
+  "branches": {
+    "title": "Our Branches",
+    "content": "We have multiple branches across the country to serve you better.",
+    "branchList": [
+      {
+        "name": "Main Branch",
+        "address": "123 Main Street, Cityville",
+        "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed",
+        "image": "/location-dummy.png",
+        "number": "+1 (555) 123-4567",
+        "maplink": "https://www.google.com/maps/place/123+Main+Street,+Cityville"
+      },
+      {
+        "name": "Downtown Branch",
+        "address": "456 Downtown Avenue, Cityville",
+        "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed",
+        "image": "/location-dummy.png",
+        "number": "+1 (555) 987-6543",
+        "maplink": "https://www.google.com/maps/place/456+Downtown+Avenue,+Cityville"
+      },
+      {
+        "name": "Uptown Branch",
+        "address": "789 Uptown Road, Cityville",
+        "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed",
+        "image": "/location-dummy.png",
+        "number": "+1 (555) 246-8101",
+        "maplink": "https://www.google.com/maps/place/789+Uptown+Road,+Cityville"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "content": "Read what our satisfied customers have to say about their experience with us.",
+    "testimonialList": [
+      {
+        "name": "John Doe",
+        "feedback": "Great service and high-quality products! I highly recommend this shop."
+      },
+      {
+        "name": "Jane Smith",
+        "feedback": "The staff was very helpful and knowledgeable. I found exactly what I needed."
+      },
+      {
+        "name": "Mike Johnson",
+        "feedback": "Fast shipping and excellent customer support. I will definitely shop here again."
+      },
+      {
+        "name": "Emily Davis",
+        "feedback": "I love the variety of products available. The quality is top-notch!"
+      },
+      {
+        "name": "David Wilson",
+        "feedback": "The best electronics store I've ever visited. Highly recommended!"
+      },
+      {
+        "name": "Sarah Brown",
+        "feedback": "I had a great experience shopping here. The staff was friendly and helpful."
+      }
+    ]
+  },
+  "contactUs": {
+    "phone": "+1 (555) 123-4567",
+    "email": "info@shop.com",
+    "headquarters": {
+      "address": "123 Main Street, Cityville",
+      "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed"
+    },
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/yourpage",
+        "image": "/facebook.png"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://www.twitter.com/yourprofile",
+        "image": "/twitter.png"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/yourprofile",
+        "image": "/instagram.png"
+      }
+    ]
+  }
+}
