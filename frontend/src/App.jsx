@@ -4,6 +4,7 @@ import AboutUs from "./components/AboutUs";
 import ProductCategory from "./components/ProductCategory";
 import Branches from "./components/Branches";
 import Testimonials from "./components/Testimonials";
+import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 
 import { HomePageProvider } from "./context/HomePageContext";
@@ -20,6 +21,7 @@ export default function App() {
           <ProductCategory />
           <Branches />
           <Testimonials />
+          <ContactUs />
         </main>
         <Footer />
       </HomePageProvider>

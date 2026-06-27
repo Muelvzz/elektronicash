@@ -141,5 +141,30 @@
         "feedback": "I had a great experience shopping here. The staff was friendly and helpful."
       }
     ]
+  },
+  "contactUs": {
+    "phone": "+1 (555) 123-4567",
+    "email": "info@shop.com",
+    "headquarters": {
+      "address": "123 Main Street, Cityville",
+      "schedule": "Mon-Fri: 9am - 6pm, Sat: 10am - 4pm, Sun: Closed"
+    },
+    "socialLinks": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/yourpage",
+        "image": "/facebook.png"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://www.twitter.com/yourprofile",
+        "image": "/twitter.png"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/yourprofile",
+        "image": "/instagram.png"
+      }
+    ]
   }
 }
