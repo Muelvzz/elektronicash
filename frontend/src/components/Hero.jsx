@@ -9,8 +9,8 @@ export default function Hero() {
 
       <div className="w-full md:w-2/3 lg:w-2/5 z-98">
         <div>
-          <h1 className="font-(--font-headline) font-semibold text-(--tertiary-color)">{ hero.title }</h1>
-          <h4 className="text-(--neutral-color)">{ hero.subtitle }</h4>
+          <h1 className="font-headline font-semibold text-(--tertiary-color)">{ hero.title }</h1>
+          <p className="text-(--neutral-color)">{ hero.subtitle }</p>
         </div>
         <div className="flex gap-4 justify-center mt-6">
           <button className="bg-(--primary-color) text-(--tertiary-color) px-4 py-2 rounded-lg font-bold">Learn More</button>

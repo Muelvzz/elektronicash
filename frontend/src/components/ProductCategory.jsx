@@ -6,7 +6,7 @@ export default function ProductCategory() {
   return (
     <section className="flex flex-col justify-center items-center text-center my-20">
       <div className="w-full md:w-2/3 lg:w-3/5 mb-10">
-        <h1 className="font-(--font-headline)">{ productCategory.title }</h1>
+        <h2>{ productCategory.title }</h2>
         <p className="text-(--neutral-color) text-center">{ productCategory.content }</p>
       </div>
       <div>
@@ -17,7 +17,7 @@ export default function ProductCategory() {
                 <img src={ data.image } alt={ data.name } />
               </div>
               <div>
-                <h4 className="font-(--font-headline) text-(--neutral-color)">{ data.name }</h4>
+                <h4 className="text-(--neutral-color)">{ data.name }</h4>
               </div>
             </div>
           ))}

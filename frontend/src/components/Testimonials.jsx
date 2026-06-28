@@ -13,7 +13,7 @@ export default function Testimonials() {
   return (
     <section className="flex flex-col justify-center items-center text-center px-4 py-12 bg-(--tertiary-color)">
       <div className="w-full md:w-2/3 lg:w-3/5 mb-10">
-        <h1 className="text-3xl font-semibold mb-3">{testimonials.title}</h1>
+        <h2 className="text-3xl font-semibold mb-3">{testimonials.title}</h2>
         <p className="text-gray-600">{testimonials.content}</p>
       </div>
 

@@ -76,8 +76,8 @@ export default function ContactUs() {
                 </div>
               </div>
               <div className="text-left">
-                <p className="text-sm font-semibold">Phone</p>
-                <p className="text-sm text-slate-600">{contactUs.phone}</p>
+                <p className="font-semibold">Phone</p>
+                <p className="text-slate-600">{contactUs.phone}</p>
               </div>
             </div>
 
@@ -88,8 +88,8 @@ export default function ContactUs() {
                 </div>
               </div>
               <div className="text-left">
-                <p className="text-sm font-semibold">Headquarters</p>
-                <p className="text-sm text-slate-600">{contactUs.headquarters.address}</p>
+                <p className="font-semibold">Headquarters</p>
+                <p className="text-slate-600">{contactUs.headquarters.address}</p>
               </div>
             </div>
 
@@ -100,8 +100,8 @@ export default function ContactUs() {
                 </div>
               </div>
               <div className="text-left">
-                <p className="text-sm font-semibold">Business Hours</p>
-                <p className="text-sm text-slate-600">
+                <p className="font-semibold">Business Hours</p>
+                <p className="text-slate-600">
                   {contactUs.headquarters.schedule}
                 </p>
               </div>

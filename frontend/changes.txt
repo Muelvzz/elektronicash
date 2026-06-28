@@ -1,0 +1,10 @@
+What Changed:
+  - Changed the font pairings:
+    - Archivo Black (before) into Copse (after)
+    - Inter (before) into Montserrat (after)
+  - Adjusted the line-height of the text elements
+    - h1: 41.6px
+    - h2: 34.98px
+    - h3: 29.41px
+    - h4: 24.73px
+    - p: 24px
